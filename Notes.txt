@@ -1,0 +1,14 @@
+I. Aim of the program
+→ Explain that it generates a sine wave in time and computes/displays its FFT (frequency content).
+
+II. Time observation range
+→ Read it from t = 0:Tech:2; → from 0 to 2 s.
+
+III. Type of signal
+→ It’s a pure sinusoidal signal of frequency 10 Hz (from sin(2*pi*10*t)).
+
+IV. Spectral component
+→ From the FFT plot, identify the peak at 10 Hz and explain why there is only one main frequency (pure sinus).
+
+V. Why only half-plane?
+→ Explain that, for a real signal, the spectrum is symmetric, so we only plot positive frequencies.
