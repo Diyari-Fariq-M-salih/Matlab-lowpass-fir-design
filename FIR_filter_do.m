@@ -3,7 +3,7 @@
 clear; clc; close all;
 
 %% 1. Load DO signal
-load signal.mat     % loads "signal"
+load signal2.mat     % loads "signal"
 t = signal(1,:);     % time vector
 e = signal(2,:);     % input DO signal
 N = length(e);       % number of samples
