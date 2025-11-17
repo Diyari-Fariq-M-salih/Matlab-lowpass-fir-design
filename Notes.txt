@@ -38,3 +38,13 @@ Stopband Specifications:
 Stopband edge (Fstop): ≈ 1200 Hz
 
 Minimum attenuation (Astop): 10 d
+
+
+Graph interpitation:
+Filter Behavior	    Evidence
+Low-pass filter	    Magnitude starts near 0 dB and rolls off ~1 kHz
+Equiripple FIR	    Flat ripple in passband + stopband
+Linear-phase	    Symmetric taps + straight-line phase
+Deep notches	    Spectral zeros due to FIR structure
+Stable	            Step response with smooth monotonic rise
+Well-designed	    Matches FDATool specs
