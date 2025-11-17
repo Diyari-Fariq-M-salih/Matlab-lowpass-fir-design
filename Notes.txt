@@ -12,3 +12,29 @@ IV. Spectral component
 
 V. Why only half-plane?
 → Explain that, for a real signal, the spectrum is symmetric, so we only plot positive frequencies.
+
+
+Filter Type:
+
+FIR Low-Pass, linear-phase, equiripple design
+
+Design Method:
+
+FIR → Equiripple (Parks–McClellan)
+with Minimum Order and Density Factor = 16
+
+Sampling Frequency:
+
+Fs = 24 kHz
+
+Passband Specifications:
+
+Passband edge (Fp): ≈ 200 Hz
+
+Passband ripple (Apass): 1 dB
+
+Stopband Specifications:
+
+Stopband edge (Fstop): ≈ 1200 Hz
+
+Minimum attenuation (Astop): 10 d
